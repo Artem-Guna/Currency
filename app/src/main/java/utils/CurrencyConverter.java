@@ -1,4 +1,4 @@
-package com.example.artemka;
+package utils;
 
 import com.example.artemka.Currency;
 public class CurrencyConverter {
