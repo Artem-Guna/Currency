@@ -1,12 +1,11 @@
-package adapters;
+package com.example.artemka;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.artemka.ConversionHistory;
-import com.example.artemka.R;
+
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;

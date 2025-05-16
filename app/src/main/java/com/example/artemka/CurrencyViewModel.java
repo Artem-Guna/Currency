@@ -1,14 +1,16 @@
 package com.example.artemka;
 
+import androidx.lifecycle.ViewModel;
+import com.example.artemka.Currency;
+import com.example.artemka.ConversionHistory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CurrencyViewModel {
-    private List<Currency> currencies = new ArrayList<>();
-    private List<ConversionHistory> history = new ArrayList<>();
+public class CurrencyViewModel extends ViewModel {
+    private final List<Currency> currencies = new ArrayList<>();
+    private final List<ConversionHistory> history = new ArrayList<>();
 
     public CurrencyViewModel() {
-        // Инициализация валют (курсы примерные, нужно обновлять из API)
         currencies.add(new Currency("Рубль", 1.0));
         currencies.add(new Currency("Белорусский рубль", 0.29));
         currencies.add(new Currency("Евро", 92.5));
