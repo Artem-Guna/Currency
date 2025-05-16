@@ -1,8 +1,5 @@
-package ViewModel;
+package com.example.artemka;
 
-import androidx.lifecycle.ViewModel;
-import com.example.artemka.Currency;
-import com.example.artemka.ConversionHistory;
 import java.util.ArrayList;
 import java.util.List;
 

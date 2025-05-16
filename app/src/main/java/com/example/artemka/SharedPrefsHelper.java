@@ -1,4 +1,4 @@
-package utils;
+package com.example.artemka;
 import android.content.Context;
 import android.content.SharedPreferences;
 import org.json.JSONArray;
@@ -6,7 +6,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
-import com.example.artemka.ConversionHistory;
 import java.util.Date;
 public class SharedPrefsHelper {
     private static final String PREFS_NAME = "ArtemKaPrefs";
