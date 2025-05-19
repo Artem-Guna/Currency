@@ -11,19 +11,19 @@
     <Spinner
         android:id="@+id/spinnerFrom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="36dp" />
 
     <Spinner
         android:id="@+id/spinnerTo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp" />
 
     <EditText
         android:id="@+id/etAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="150dp"
         android:hint="Сумма"
         android:inputType="numberDecimal" />
 
@@ -31,7 +31,7 @@
         android:id="@+id/btnConvert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="150dp"
         android:text="Конвертировать" />
 
     <TextView
